@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="main.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      body {
+        background-image: url(bg3.jpg);
+        justify-content: center;
+      }
+      #image1 {
+        background: rgb(198, 177, 58);
+        width: 70%;
+      }
+      h1 {
+        color: gold;
+      }
+
+      h2 {
+        color: rgb(144, 30, 30);
+      }
+    </style>
+  </head>
+
+  <body>
+    <center>
+      <div class="container mt-3">
+        <h1 id="xmas">"MERRY CHRISTMAS"<span id="rgboutput">RGB</span></h1>
+      </div>
+
+      <div class="container mt-3">
+        <img src="Artboard 1.png" alt="" id="image1" />
+      </div>
+
+      <div class="container mt-3">
+        <h2 id="xmas2">
+          ENJOY YOUR HOLIDAYS! <span id="rgboutput2">RGB</span>
+        </h2>
+      </div>
+
+      <div class="container mt-3">
+        <button class="btn btn-light" id="start_btn" onclick="start()">
+          FAST
+        </button>
+        <button class="btn btn-light" id="start_btn2" onclick="start2()">
+          MILD
+        </button>
+        <button class="btn btn-light" id="start_btn3" onclick="start3()">
+          SLOW
+        </button>
+        <button class="btn btn-light" id="stop_btn" onclick="stop()">
+          Stop
+        </button>
+      </div>
+    </center>
+  </body>
+</html>
